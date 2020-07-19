@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+	
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.control.*?>
+	
+<BorderPane xmlns:fx="http://javafx.com/fxml/1" fx:controller="br.com.treinaweb.agenda.fx.MainController">
+	<center>
+	<Label BorderPane.alignment="CENTER" text="Região central"></Label>
+	</center>
+	<top>
+	<HBox>
+	<children>
+	<Label text="Cabeçalho"></Label>
+	<Button text="Botão"></Button>
+	</children>
+	</HBox>
+	</top>
+	<bottom>
+	<Label BorderPane.alignment="CENTER_RIGHT" text="Região do rodape"></Label>
+	</bottom>
+	<left>
+	<Label BorderPane.alignment="CENTER" text="Região da esquerda"></Label>
+	</left>
+	<right>
+	<Label BorderPane.alignment="CENTER" text="Região da direita"></Label>
+	</right>
+
+</BorderPane>

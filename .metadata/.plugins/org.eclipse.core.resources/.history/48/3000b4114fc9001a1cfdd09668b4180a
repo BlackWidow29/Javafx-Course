@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+	
+<?import javafx.scene.layout.BorderPane?>
+<?import javafx.scene.control.Label?>
+	
+<BorderPane xmlns:fx="http://javafx.com/fxml/1" fx:controller="br.com.treinaweb.agenda.fx.MainController">
+	<center>
+	<Label BorderPane.alignment="CENTER" text="Região central"></Label>
+	</center>
+	<top>
+	<Label BorderPane.alignment="CENTER_LEFT" text="Região superior"></Label>
+	</top>
+	<bottom>
+	<Label BorderPane.alignment="CENTER_RIGHT" text="Região do rodape"></Label>
+	</bottom>
+</BorderPane>
